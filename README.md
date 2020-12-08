@@ -1,7 +1,7 @@
 # Astar
 
 <p align="center">
-  <img src="/media/astarpath.jpg" width="500" height="350" />
+  <img src="/media/astarpath.jpg" width="500" height="300" />
 </p>
 
 # Overview
@@ -30,7 +30,7 @@ numpy
 matplotlib
 
 ## Implementation
-See this [document](). for more details and theory behind the implementation.
+See this [document](https://github.com/bostoncleek/Astar/blob/master/doc/astar_planning.pdf). for more details and theory behind the implementation.
 
 ### Heuristic
 The implementation of A* use the admissible Octile distance heuristic. On a square grid the heuristic considers eight directions of movement.
