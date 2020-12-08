@@ -29,7 +29,7 @@ Line 10 of grid.py if need modify
 - numpy
 - matplotlib
 
-## Implementation
+# Implementation
 See this [document](https://github.com/bostoncleek/Astar/blob/master/doc/astar_planning.pdf). for more details and theory behind the implementation.
 
 ### Heuristic
