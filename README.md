@@ -7,6 +7,8 @@
 # Overview
 The project focus was to develop an online implementation of A* that does not have knowledge of the obstacles *a priori* and must re-plan from the current node when an obstacle is encountered. Additionally the robot drives the path while planning from its current location using an inverse kinematic controller. If the robot ends up in a cell other than the target cell, A* must select a new target cell. The robot's kinematics and noise added in the controller influence the path planning component by simulating stochasticity in the environment. All visualizations use the following color scheme: the start/end configurations are blue, the planned path using A* is red, the position of the robot is purple, the heading of the robot is depicted by a yellow arrow, all obstacles are black, and all unoccupied cells are white.
 
+See this [document](https://github.com/bostoncleek/Astar/blob/master/doc/astar_planning.pdf). for more details and theory behind the implementation.
+
 The grid discretizations bellow are 1m (left) and 0.1m (right).
 
 <p align="center">
@@ -30,8 +32,6 @@ Line 10 of grid.py if need modify
 - matplotlib
 
 # Implementation
-See this [document](https://github.com/bostoncleek/Astar/blob/master/doc/astar_planning.pdf). for more details and theory behind the implementation.
-
 ### Heuristic
 The implementation of A* use the admissible Octile distance heuristic. On a square grid the heuristic considers eight directions of movement.
 
